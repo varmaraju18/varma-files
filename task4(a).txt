@@ -1,0 +1,34 @@
+import java.util.Scanner;
+public class main{
+    public static void main(String[] args){
+        Scanner varma=new Scanner(System.in);
+        System.out.print("enter an number:");
+        int a=varma.nextInt();
+        System.out.print("enter an number:");
+        int b=varma.nextInt();
+       System.out.print("enter the operator(+,-,*,/):");
+       char operator=varma.next().charAt(0);
+       int result=0;
+       switch(operator){
+           case '+':
+               result=a+b;
+               break;
+           case '-':
+               result=a-b;
+               break;
+           case '*':
+               result=a*b;
+               break;
+           case '/':
+               if(b !=0){
+                   result=a/b;
+               }else{
+                   System.out.print("can't divide by zero");
+               }
+               break;
+           default:
+                 System.out.print("error: invalid operator!");
+       }
+       System.out.print("result:"+result);
+    }
+}

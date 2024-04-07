@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class main {
+    public static void main(String[] args) {
+
+        Scanner varma= new Scanner(System.in);
+        System.out.print("enter an integer:");
+        int a=varma.nextInt();
+        if(a%2==0){
+            System.out.println("the given integer is even");
+        }
+        else{
+            System.out.println("the given integer is odd");
+        }
+        
+    }
+}

@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class main{
+    public static void main(String[] args){
+        Scanner varma=new Scanner(System.in);
+        System.out.print("enter an number:");
+        int a=varma.nextInt();
+        System.out.print("enter an number:");
+        int b=varma.nextInt();
+        int s=a+b;
+        int d=a-b;
+        int m=a*b;
+        int di=a/b;
+         System.out.println("tne addition of number is:"+s);
+          System.out.println("the difference of number is:"+d);
+           System.out.println("the multiplication of number is:"+m);
+            System.out.println("the division of number is:"+di);
+
+        
+    }
+}

@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class main{
+    public static void main(String[] args){
+        Scanner varma=new Scanner(System.in);
+        System.out.print("enter an number:");
+        int a=varma.nextInt();
+        System.out.print("enter an number:");
+        int b=varma.nextInt();
+        System.out.print("enter an number:");
+        int c=varma.nextInt();
+        int sum=a+b+c;
+        float avreage= sum/3;
+        System.out.print("the avreage of three number is:"+avreage);
+
+        
+    }
+}
